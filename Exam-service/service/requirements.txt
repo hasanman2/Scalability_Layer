@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+pydantic
+sqlalchemy
+pymysql            # or psycopg2-binary if using Postgres
+httpx              # optional, if you call Moodle via HTTP
+python-dotenv      # optional, for env-based config
