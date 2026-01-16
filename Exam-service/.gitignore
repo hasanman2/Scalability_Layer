@@ -1,16 +1,104 @@
-# Node / Vite
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+pip-wheel-metadata/
+
+############################
+# Python tooling
+############################
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+############################
+# FastAPI / Uvicorn
+############################
+uvicorn.log
+gunicorn.log
+
+############################
+# Node / Frontend (if any)
+############################
 node_modules/
+.next/
 dist/
-.vite/
+build/
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+############################
+# Docker
+############################
+docker-compose.override.yml
+*.pid
 
-# IDE
-.vscode/
+############################
+# Moodle runtime data
+############################
+moodledata/
+moodledata/**
+*.sqlite
+*.db
+
+############################
+# Database dumps / backups
+############################
+*.sql
+*.dump
+*.bak
+
+############################
+# Locust
+############################
+locust.log
+stats.csv
+stats_history.csv
+reports/
+*.html
+
+############################
+# OS / IDE
+############################
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
 
-# Temp
+############################
+# Secrets / credentials
+############################
+*.key
+*.pem
+*.crt
+secrets/
+credentials/
+
+############################
+# Temporary / runtime
+############################
+tmp/
+temp/
+runtime/
+cache/
+
+############################
+# Architecture diagrams & exports
+############################
+*.drawio.bak
 *.tmp
